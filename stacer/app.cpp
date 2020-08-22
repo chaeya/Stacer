@@ -51,7 +51,7 @@ void App::init()
     };
 
     mListSidebarButtons = {
-        ui->btnDash, ui->btnStartupApps, ui->btnSystemCleaner, ui->btnSearch, ui->btnServices,
+        ui->btnDash, ui->btnStartupApps, ui->btnSystemCleaner, /*ui->btnSearch,*/ ui->btnServices,
         ui->btnProcesses, ui->btnHelpers, ui->btnUninstaller, ui->btnResources, ui->btnSettings
     };
 
@@ -218,10 +218,10 @@ void App::on_btnSystemCleaner_clicked()
     pageClick(systemCleanerPage);
 }
 
-void App::on_btnSearch_clicked()
-{
-    pageClick(searchPage);
-}
+// void App::on_btnSearch_clicked()
+// {
+//     pageClick(searchPage);
+// }
 
 void App::on_btnServices_clicked()
 {
@@ -263,10 +263,10 @@ void App::on_btnSettings_clicked()
     pageClick(settingsPage);
 }
 
-void App::on_btnFeedback_clicked()
-{
-    if (feedback.isNull()) {
-        feedback = QSharedPointer<Feedback>(new Feedback(this));
-    }
-    feedback->show();
-}
+// void App::on_btnFeedback_clicked()
+// {
+//     if (feedback.isNull()) {
+//         feedback = QSharedPointer<Feedback>(new Feedback(this));
+//     }
+//     feedback->show();
+// }

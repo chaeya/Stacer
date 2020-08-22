@@ -92,7 +92,7 @@ void SettingsPage::init()
 
     // effects
     QList<QWidget*> widgets = {
-        ui->cmbLanguages, /*ui->cmbThemes,*/ ui->cmbDisks, ui->cmbStartPage, ui->btnDonate,
+        ui->cmbLanguages, /*ui->cmbThemes,*/ ui->cmbDisks, ui->cmbStartPage, /*ui->btnDonate,*/
         ui->spinCpuPercent, ui->spinMemoryPercent, ui->spinDiskPercent
     };
 
@@ -144,10 +144,10 @@ void SettingsPage::on_checkAutostart_clicked(bool checked)
     }
 }
 
-void SettingsPage::on_btnDonate_clicked()
-{
-    QDesktopServices::openUrl(QUrl("https://www.patreon.com/oguzhaninan"));
-}
+// void SettingsPage::on_btnDonate_clicked()
+// {
+//     QDesktopServices::openUrl(QUrl("https://www.patreon.com/oguzhaninan"));
+// }
 
 void SettingsPage::cmbStartPageChanged(const QString text)
 {

@@ -1,5 +1,5 @@
-#include ".h"
-#include "ui_.h"
+#include "search_page.h"
+#include "ui_search_page.h"
 #include <qdebug.h>
 #include <QClipboard>
 

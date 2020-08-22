@@ -22,7 +22,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp \
+    main.cpp \
     app.cpp \
     Pages/Dashboard/circlebar.cpp \
     Pages/Dashboard/linebar.cpp \
@@ -128,6 +128,7 @@ TRANSLATIONS += \
     ../translations/stacer_en.ts \
     ../translations/stacer_es.ts \
     ../translations/stacer_fr.ts \
+    ../translations/stacer_gl.ts \    
     ../translations/stacer_hi.ts \
     ../translations/stacer_it.ts \
     ../translations/stacer_kn.ts \
@@ -137,6 +138,7 @@ TRANSLATIONS += \
     ../translations/stacer_oc.ts \
     ../translations/stacer_pl.ts \
     ../translations/stacer_pt.ts \
+    ../translations/stacer_ro.ts \    
     ../translations/stacer_ru.ts \
     ../translations/stacer_sv.ts \
     ../translations/stacer_tr.ts \

@@ -143,7 +143,7 @@ void DashboardPage::updateCpuBar()
         }
     }
 
-    mCpuBar->setValue(cpuUsedPercent, QString("%1 GHz\n%2%").arg(cpuCurrentClockGHz, 0, 'f', 2).arg(cpuUsedPercent));
+    mCpuBar->setValue(cpuUsedPercent, QString("%1 GHz / %2%").arg(cpuCurrentClockGHz, 0, 'f', 2).arg(cpuUsedPercent));
 }
 
 void DashboardPage::updateMemoryBar()

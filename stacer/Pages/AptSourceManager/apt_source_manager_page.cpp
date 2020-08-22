@@ -23,7 +23,7 @@ APTSourceManagerPage::APTSourceManagerPage(QWidget *parent) :
 void APTSourceManagerPage::init()
 {
     ui->txtAptSource->setPlaceholderText(tr("example %1")
-                                         .arg("'deb http://archive.ubuntu.com/ubuntu xenial main'"));
+                                         .arg("'deb http://archive.ubuntu.com/ubuntu bionic main'"));
 
     loadAptSources();
 

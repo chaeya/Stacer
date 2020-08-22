@@ -30,7 +30,7 @@ void messageHandler(QtMsgType type, const QMessageLogContext &context, const QSt
     if (type != QtWarningMsg) {
 
         QString text = QString("[%1] [%2] %3")
-                                .arg(QDateTime::currentDateTime().toString("dd-MM-yyyy hh:mm:ss"))
+                                .arg(QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss"))
                                 .arg(level)
                                 .arg(message);
 
@@ -54,8 +54,8 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
 
     qApp->setApplicationName("stacer");
-    qApp->setApplicationDisplayName("Stacer");
-    qApp->setApplicationVersion("1.1.0");
+    qApp->setApplicationDisplayName("시스템관리");
+    qApp->setApplicationVersion("1.1.0hamonikr1");
     qApp->setWindowIcon(QIcon(":/static/logo.png"));
 
     {
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         parser.process(app);
     }
 
-    QFontDatabase::addApplicationFont(":/static/font/Ubuntu-R.ttf");
+    QFontDatabase::addApplicationFont(":/static/font/NanumBarunGothic.ttf");
 
     QPixmap pixSplash(":/static/splashscreen.png");
 
