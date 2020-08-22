@@ -1,8 +1,10 @@
-stacer (1.1.0-1) stable; urgency=medium
+stacer (1.1.0hamonikr1) stable; urgency=medium
 
-  * Snap package uninstaller.
-  * Advanced file search.
-  * Disk chart.
-  * Host manager.
+  * removed feedback
+  * removed search page
+  * change link url to hamonikr team
+  * add korean language translation
+  * changed release script
+  * changed default font
 
- -- Oguzhan Inan <oguzhan3488@gmail.com>  Sun, 13 May 2018 00:50:10 +0300
+ -- HamoniKR Team <hamonikr-packages@googlegroups.com>  Sat, 22 Aug 2020 12:29:08 +0900

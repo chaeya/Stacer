@@ -1,13 +1,16 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: stacer
-Source: https://github.com/oguzhaninan/Stacer/
+Upstream-Name: hamonikr-stacer
+Upstream-Contact: root@hamonikr.org
+Source: https://github.com/chaeya/Stacer
 
 Files: *
-Copyright: 2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
+Copyright: 2020 Kevin Kim <root@hamonikr.org>
+           2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
 License: GPL-3.0
 
 Files: debian/*
-Copyright: 2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
+Copyright: 2020 Kevin Kim <root@hamonikr.org>
+           2017-2019 Oguzhan INAN <oguzhan3488@gmail.com>
 License: GPL-3.0
 
 GNU GENERAL PUBLIC LICENSE

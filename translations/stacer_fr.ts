@@ -352,73 +352,73 @@
         <translation>TÉLÉVERSEMENT</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="113"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
         <source>Hostname: %1</source>
         <translation>Nom d’Hôte : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="114"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
         <source>Platform: %1</source>
         <translation>Plateforme : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="115"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
         <source>Distribution: %1</source>
         <translation>Distribution : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="116"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
         <source>Kernel Release: %1</source>
         <translation>Version du Noyau : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="117"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
         <source>CPU Model: %1</source>
         <translation>Modèle du CPU : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="119"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="120"/>
         <source>CPU Speed: %1</source>
         <translation>Vitesse du CPU : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="118"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="119"/>
         <source>CPU Core: %1</source>
         <translation>CPU Cœur : %1</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="137"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
         <source>High CPU Usage</source>
         <translation>Utilisation élevée du CPU</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="138"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="139"/>
         <source>The amount of CPU used is over %1%.</source>
         <translation>La quantité de CPU utilisée est terminée %1%.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="166"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="167"/>
         <source>High Memory Usage</source>
         <translation>Utilisation élevée de la mémoire</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="167"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="168"/>
         <source>The amount of memory used is over %1%.</source>
         <translation>La quantité de mémoire utilisée est supérieure à %1%.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="210"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="211"/>
         <source>High Disk Usage</source>
         <translation>Utilisation élevée du disque</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="211"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="212"/>
         <source>The amount of disk used is over %1%.</source>
         <translation>La quantité de disque utilisée est supérieure à %1%.</translation>
     </message>
     <message>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="249"/>
-        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="253"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="250"/>
+        <location filename="../stacer/Pages/Dashboard/dashboard_page.cpp" line="254"/>
         <source>Total: %1</source>
         <translation>Total : %1</translation>
     </message>

@@ -2,6 +2,8 @@
 Name=Stacer
 Exec=stacer
 Comment=Linux System Optimizer and Monitoring
+Name[ko]=시시스템 최적화 및 서비스 관리
+Comment[ko]=시스템 최적화 및 서비스 관리 프로그램
 Icon=stacer
 Type=Application
 Terminal=false

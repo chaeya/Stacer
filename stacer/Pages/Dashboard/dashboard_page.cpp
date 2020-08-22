@@ -89,7 +89,8 @@ void DashboardPage::checkUpdate()
                 const QString version = ex.cap();
 
                 if (qApp->applicationVersion() != version) {
-                    emit sigShowUpdateBar();
+                    // hide update check bar
+                    // emit sigShowUpdateBar();
                 }
             }
         }

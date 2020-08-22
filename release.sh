@@ -35,7 +35,7 @@ rm lqt
 if [ "$1" = "deb" ] 
 then
     cd $RELEASE/$DIR
-    yes | dh_make --createorig -i -c mit
+    dh_make --createorig -i -c gpl3
     debuild --no-lintian -us -uc
 else
     exit 0

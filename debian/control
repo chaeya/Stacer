@@ -1,11 +1,11 @@
 Source: stacer
 Section: utils
 Priority: optional
-Maintainer: Oguzhan INAN <oguzhan3488@gmail.com>
+Maintainer: HamoniKR Team <hamonikr-packages@googlegroups.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: https://github.com/oguzhaninan/Stacer
-Vcs-Browser: https://github.com/oguzhaninan/Stacer.git
+Homepage: https://github.com/chaeya/Stacer
+Vcs-Browser: https://github.com/chaeya/Stacer.git
 
 Package: stacer
 Architecture: all
